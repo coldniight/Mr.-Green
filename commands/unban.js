@@ -1,6 +1,5 @@
 const botconfig = require("../botconfig.json");
 const Discord = require("discord.js");
-const tokenfile = require("../token.json");
 
 module.exports.run = async (bot, message, args) => {
   function emoji (id) {
