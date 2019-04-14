@@ -1,7 +1,6 @@
 const botconfig = require("../botconfig.json");
 const Discord = require("discord.js");
 const fs = require("fs");
-const tokenfile = require("../token.json");
 let warns = JSON.parse(fs.readFileSync("./warnings.json", "utf8"));
 
 module.exports.run = async (bot, message, args) => {
